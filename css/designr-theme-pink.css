@@ -82,7 +82,7 @@ h1.section-title{
     margin:0 0 124px;
     font-size:48px;
     line-height:64px;
-    font-weight:300;
+    font-weight:500;
     text-align:center;
     color:#f1678d;
     z-index:1;
@@ -90,7 +90,7 @@ h1.section-title{
 
 .section-title span {
     font-size:150%;
-    font-weight:400;
+    font-weight:00;
 }
 
 .section-title [class*=fa]{
@@ -113,7 +113,7 @@ h2 {
 p {
     font-size:18px;
     line-height:24px;
-    font-weight:300;
+    font-weight:400;
     letter-spacing:0.01em;
     margin-bottom:20px;
 }
@@ -627,7 +627,7 @@ header.jumbotron{
 }
 
 #portfolio .section-title {
-    font-weight:300;
+    font-weight:500;
     margin-bottom:60px;
 }
 
@@ -942,13 +942,15 @@ header.jumbotron{
 .modal-body h1{
     color:#f1678d;
     margin:200px 0 24px;
-    font-size:32px;
+    /* font-size:32px; */
+    font-size: 42px;
+    font-weight: bold;
 }
 
 .modal-body .project-descr{
     color:#aaa;
-    margin:0 0 24px;
-    
+    margin:0 0 24px; 
+    font-size: 1.5em;
 }
 
 .modal-body .btn-theme{
@@ -1001,6 +1003,7 @@ header.jumbotron{
     margin-bottom:40px;
 
 }
+
 /* 
 #twitter {
     color:#fff;
@@ -1109,6 +1112,20 @@ header.jumbotron{
 -----Contact Styles-----
 ------------------------*/
 
+.contactMe {
+    color:#fff;
+    box-sizing: border-box;
+    font-size: 1.5em;
+    text-align: center;
+
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+
+    display: block;
+}
+
 #contact {
     background:transparent;
     color:#fff;
@@ -1116,8 +1133,10 @@ header.jumbotron{
 }
 
 #contact .section-title {
-    color:#fff;
+    /* color:#fff; */
+    color: #f1678d;
     margin-bottom:84px;
+    font-weight: bolder;
 }
 
 #contact .section-title [class*=fa]{
@@ -1155,11 +1174,11 @@ header.jumbotron{
     display:inline-block;
     width:48px;
     height:48px;
-    font-size:32px;
+    font-size:50px;
     line-height:48px;
     text-align:center;
     text-decoration:none;
-    margin:0;
+    margin:15px;
     padding:0;
     color:#fff;
     -webkit-transition:color 0.2s ease-out;
@@ -1487,19 +1506,19 @@ header.jumbotron{
 
 @media (max-width: 1199px) {
 
-.jumbotron .left-col p{
-    font-size:28px;
-    line-height:32px;
-}
+    .jumbotron .left-col p{
+        font-size:28px;
+        line-height:32px;
+    }
 
-.jumbotron .left-col p span{
-    font-size:36px;
-}
+    .jumbotron .left-col p span{
+        font-size:36px;
+    }
 
-.jumbotron .right-col p{
-    font-size:82px;
-    line-height:82px;
-}
+    .jumbotron .right-col p{
+        font-size:82px;
+        line-height:82px;
+    }
 
 }
 
