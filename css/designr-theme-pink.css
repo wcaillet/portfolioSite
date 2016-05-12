@@ -126,15 +126,18 @@ a:focus {
 }
 
 a {
-  color: #883d53;
+  /* color: #883d53; */
+  color: #f1678d;
   text-decoration: none;
 }
 
 a:hover,
 a:focus {
   color: #984d63;
+  /* color: #f1678d; */
   text-decoration: none;
 }
+
 
 a:focus,
 .btn:focus {
@@ -564,6 +567,17 @@ header.jumbotron{
 #about img {
     box-shadow:12px 0px 0px 12px rgba(255,255,255,0.2),
                 -12px 0px 0px 12px rgba(255,255,255,0.2);
+}
+
+.aboutA {
+    color: #883d53; 
+    text-decoration: none;
+}
+
+.aboutAWorks {
+    color: #883d53; 
+    text-decoration: none;
+    font-size: 2em;
 }
 
 /*-----------------------
